@@ -1,0 +1,38 @@
+.form-box{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+}
+input{
+    border: 5px solid aqua;
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+    background-color: lightpink
+}
+input:focus{
+    border: 5px solid red;
+}
+select{
+    color: teal;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 5px;
+    font-size: 15px;
+}
+button{
+    background-color: salmon;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 5px;
+    font-size: 20px;
+}
+textarea{
+    resize:none;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* სიგანეში 100% დავუწერე და დაიკავებს 300 პიქელს, რადგან ამისი მშობელი form-box არის 300px */
+    box-shadow: 15px 20px 10px green;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Input</title>
+</head>
+<body>
+    <form>
+        <div class="form-box">
+            <label for="name">სახელი</label>
+            <Input type="text" placeholder="სახელი" id="name" name="name" required></Input>
+        </div> 
+        <div class="form-box">
+            <label for="surname">გვარი</label>
+            <Input type="text" placeholder="გვარი" id="surname" name="surname" required></Input>
+        </div> 
+        <div class="form-box" >
+            <label for="email">ელ ფოსტა</label>
+            <Input type="email" placeholder="ელ ფოსტა" id="email" name="email" required></Input>
+        </div> 
+        <div class="form-box" >
+            <label for="number">ტელეფონის ნომერი</label>
+            <Input type="number" placeholder="ტელეფონის ნომერი" id="number" name="number"></Input>
+        </div> 
+        <div class="form-box" >
+            <label for="choose">მონიშნეთ</label>
+            <Input type="checkbox"  id="choose" name="checkbox"></Input>
+        </div>
+        <div class="form-box" >
+            <label for="male">კაცი</label>
+            <Input type="radio"  id="male" name="gender"></Input>
+            <label for="female">ქალი</label>
+            <Input type="radio"  id="female" name="gender"></Input>
+        </div>
+        <select>
+            <option>თბილისი</option>
+            <option>ბათუმი</option>
+            <option selected>გორი</option>
+        </select>
+        <div class="form-box" >
+            <label for="comment">შეიყვანეთ კომენტარი</label>
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+        <div>
+            <input type="file"></input>
+        </div>
+        <!-- <div><button>გაგზავნა</button></div> -->
+        <button>გაგზავნა</button>
+    </form>
+       
+    
+</body>
+</html>
